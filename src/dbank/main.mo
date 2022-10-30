@@ -4,5 +4,7 @@ actor dbank {
   var accountValue = 300;
   accountValue := 100;
 
-  Debug.print("Hello");
+  let id = 1243125161;
+
+  Debug.print(debug_show(id));
 }
